@@ -482,7 +482,7 @@ body {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-input:checked + .review-form-checkbox-label .review-form-custom-checkbox {
+input:checked + .review-form-checkbox-label > .review-form-custom-checkbox {
   fill: #f4f4fd;
   background-color: #404bbf;
   border: none;
@@ -490,6 +490,7 @@ input:checked + .review-form-checkbox-label .review-form-custom-checkbox {
 .review-form-policy-link {
   color: #4d5ae5;
   text-decoration: none;
+  /* text-decoration-skip-ink: none; */
 }
 .review-form-policy-link:hover {
   text-decoration: underline;
