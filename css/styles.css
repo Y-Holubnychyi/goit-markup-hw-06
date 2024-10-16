@@ -572,7 +572,7 @@ input:checked + .review-form-checkbox-label > .review-form-custom-checkbox {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/hero/people_office@2x.jpg");
+      url("../images/hero/people_office_mobile@2x.jpg");
   }
 }
 @media (min-width: 768px) {
@@ -590,7 +590,7 @@ input:checked + .review-form-checkbox-label > .review-form-custom-checkbox {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url("../images/hero/people_office@2x.jpg");
+        url("../images/hero/people_office_tablet@2x.jpg");
     }
   }
   .main-title {
@@ -618,7 +618,7 @@ input:checked + .review-form-checkbox-label > .review-form-custom-checkbox {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url("../images/hero/people_office_tablet@2x.jpg");
+        url("../images/hero/people_office@2x.jpg");
     }
   }
   .section-main {
