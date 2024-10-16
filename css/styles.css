@@ -518,7 +518,7 @@ input:checked + .review-form-checkbox-label > .review-form-custom-checkbox {
 .section-main {
   background-color: #2e2f42;
   padding: 72px 0;
-  max-width: 1440px;
+  max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -582,6 +582,7 @@ input:checked + .review-form-checkbox-label > .review-form-custom-checkbox {
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/hero/people_office_tablet.jpg");
+    max-width: 768px;
   }
   @media (min-resolution: 192dpi) {
     .section-main {
@@ -589,7 +590,7 @@ input:checked + .review-form-checkbox-label > .review-form-custom-checkbox {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url("../images/Business/darkbgtablet@2x.jpg");
+        url("../images/hero/people_office@2x.jpg");
     }
   }
   .main-title {
@@ -609,6 +610,7 @@ input:checked + .review-form-checkbox-label > .review-form-custom-checkbox {
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/hero/people_office.jpg");
+    max-width: 1440px;
   }
   @media (min-resolution: 192dpi) {
     .section-main {
@@ -986,6 +988,10 @@ input:checked + .review-form-checkbox-label > .review-form-custom-checkbox {
   color: #ffffff;
 }
 @media (min-width: 768px) {
+  .footer-soc-p {
+    text-align: left;
+  }
+
   .footer-list {
     margin-bottom: 0;
   }
@@ -1038,11 +1044,11 @@ input:checked + .review-form-checkbox-label > .review-form-custom-checkbox {
   }
   .container.footer-container {
     flex-wrap: nowrap;
-    padding: 0;
+    padding: 15px;
     gap: 0;
   }
   .page-footer-text {
     max-width: 264px;
   }
 }
-/* THANK U 4 CHECKING THIS ;-) */
+/* THANK U ;-) */
